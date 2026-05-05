@@ -64,7 +64,7 @@ Compute the last digit and print:
 
 - ```Last digit of <number> is <digit> and is greater than 5```
 - ```Last digit of <number> is <digit> and is 0```
-- ```Last digit of <number> is <digit> and is less than 6 and not 0```
+- ```Last digit of <number> is <digit> and is less than 6 and not 0```  
 Output must match exactly the expected structure.
 ```
 spam@camelot:~/$ ./last_digit.py
