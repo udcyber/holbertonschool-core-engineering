@@ -3,7 +3,7 @@
 language = ("Python")
 version = (3)
 pi = (3.14159265358979)
-computation = bool(1)
+computation = (1 > 0)
 
 print(f"Language: {language}")
 print("Version:", version)
