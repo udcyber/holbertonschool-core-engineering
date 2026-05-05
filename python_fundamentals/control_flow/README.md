@@ -99,3 +99,24 @@ Directory: python_fundamentals/control_flow
 File: print_alphabt.py  
 
 ---
+3. Hexadecimal Printing
+
+<mark>Print numbers from 0 to 98 in decimal and hexadecimal</mark>.
+
+Format:
+```
+0 = 0x0
+1 = 0x1
+...
+98 = 0x62
+```  
+- You can only use one ```print``` function with string format
+- You can only use one loop in your code
+- You are not allowed to store numbers or strings in a variable
+Repo:  
+
+GitHub repository: holbertonschool-core-engineering  
+Directory: python_fundamentals/control_flow  
+File: print_hexa.py  
+
+---
