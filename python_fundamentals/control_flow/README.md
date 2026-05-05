@@ -46,6 +46,38 @@ spam@camelot:~/$ ./positive_or_negative.py
 spam@camelot:~/$ ./positive_or_negative.py 
 10 is positive
 ```  
+Repo: 
+
 GitHub repository: holbertonschool-core-engineering  
 Directory: python_fundamentals/control_flow  
 File: positive_or_negative.py  
+
+---
+
+1. The last digit
+
+Assign a random integer to ```number```. Copy the following line exactly as it is, after the shebang line.
+```
+number = __import__('random').randint(-10000, 10000)
+```  
+Compute the last digit and print:
+
+- ```Last digit of <number> is <digit> and is greater than 5```
+- ```Last digit of <number> is <digit> and is 0```
+- ```Last digit of <number> is <digit> and is less than 6 and not 0```
+Output must match exactly the expected structure.
+```
+spam@camelot:~/$ ./last_digit.py
+Last digit of -9200 is 0 and is 0
+spam@camelot:~/$ ./last_digit.py
+Last digit of 5247 is 7 and is greater than 5
+spam@camelot:~/$ ./last_digit.py
+Last digit of -9318 is -8 and is less than 6 and not 0
+```
+Repo:  
+
+GitHub repository: holbertonschool-core-engineering  
+Directory: python_fundamentals/control_flow  
+File: last_digit.py  
+
+---
