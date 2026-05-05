@@ -46,3 +46,6 @@ spam@camelot:~/$ ./positive_or_negative.py
 spam@camelot:~/$ ./positive_or_negative.py 
 10 is positive
 ```  
+GitHub repository: holbertonschool-core-engineering  
+Directory: python_fundamentals/control_flow  
+File: positive_or_negative.py  
