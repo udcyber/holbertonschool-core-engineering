@@ -60,7 +60,7 @@ Assign a random integer to ```number```. Copy the following line exactly as it i
 ```
 number = __import__('random').randint(-10000, 10000)
 ```  
-Compute the last digit and print:
+<mark>Compute the last digit and print</mark>:
 
 - ```Last digit of <number> is <digit> and is greater than 5```
 - ```Last digit of <number> is <digit> and is 0```
