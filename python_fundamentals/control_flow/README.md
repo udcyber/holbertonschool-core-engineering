@@ -32,7 +32,7 @@ The previous line will assign a random integer between -10 and 10 to the ```numb
 Using conditional statements, print:
 - ```<number> is positive``` if the number is greater than 0
 - ```<number> is zero``` if the number equals 0
-- ```<number> is negative``` if the number is less than 0
+- ```<number> is negative``` if the number is less than 0  
 Example:
 ```
 spam@camelot:~/$ ./positive_or_negative.py 
