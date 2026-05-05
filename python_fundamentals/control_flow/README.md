@@ -81,3 +81,21 @@ Directory: python_fundamentals/control_flow
 File: last_digit.py  
 
 ---
+
+2. Alphabet Game (Lowercase)
+
+<mark>Print the lowercase alphabet except for ```q``` and ```e```<mark>.
+
+Output must be continuous (no spaces, no new lines except at end).
+
+Expected pattern:  
+```
+abcdfghijklmnoprstuvwxyz
+```
+Repo:  
+
+GitHub repository: holbertonschool-core-engineering  
+Directory: python_fundamentals/control_flow  
+File: print_alphabt.py  
+
+---
