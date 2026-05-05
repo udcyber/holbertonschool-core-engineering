@@ -4,10 +4,13 @@
 language = ("Python")
 version = (3)
 pi = (3.14159265358979)
-computation = (1 > 0)
+boolean = (1 > 0)
 
 # Output info
+
+# formatted string interpolation
 print(f"Language: {language}")
+
 print("Version:", version)
-print(f"Pi approx: {pi: .2f}")
-print('Computation valid:', computation)
+print("Pi approx: %.2f" % pi)
+print("Computation valid:", boolean)
