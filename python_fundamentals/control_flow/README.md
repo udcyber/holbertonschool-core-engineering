@@ -46,6 +46,7 @@ spam@camelot:~/$ ./positive_or_negative.py
 spam@camelot:~/$ ./positive_or_negative.py 
 10 is positive
 ```  
+  
 Repo: 
 
 GitHub repository: holbertonschool-core-engineering  
@@ -74,6 +75,7 @@ Last digit of 5247 is 7 and is greater than 5
 spam@camelot:~/$ ./last_digit.py
 Last digit of -9318 is -8 and is less than 6 and not 0
 ```
+  
 Repo:  
 
 GitHub repository: holbertonschool-core-engineering  
@@ -92,6 +94,7 @@ Expected pattern:
 ```
 abcdfghijklmnoprstuvwxyz
 ```
+  
 Repo:  
 
 GitHub repository: holbertonschool-core-engineering  
@@ -113,10 +116,37 @@ Format:
 - You can only use one ```print``` function with string format
 - You can only use one loop in your code
 - You are not allowed to store numbers or strings in a variable
+  
 Repo:  
 
 GitHub repository: holbertonschool-core-engineering  
 Directory: python_fundamentals/control_flow  
 File: print_hexa.py  
+
+---
+
+4. 00...99
+
+<mark>Print numbers from 0 to 99</mark> formatted as two-digit numbers separated by comma and space.
+
+Last number must not be followed by comma.
+
+Example beginning:
+```
+00, 01, 02, 03, ...
+```  
+- Correct formatting with leading zeros.
+- No trailing comma.
+- Exact spacing.
+- The last number should be followed by a new line
+- You can only use no more than 2 print functions - with string format
+- You can only use one loop in your code
+- You are not allowed to store numbers or strings in a variable
+  
+Repo:
+
+GitHub repository: holbertonschool-core-engineering  
+Directory: python_fundamentals/control_flow  
+File: print_comb2.py  
 
 ---
