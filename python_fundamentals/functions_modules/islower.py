@@ -11,14 +11,3 @@ def islower(c):
         return True
     else:
         return False
-
-
-# Tests
-print(islower('a'))
-print(islower('e'))
-print(islower('r'))
-print(islower('z'))
-print(islower('A'))
-print(islower('7'))
-print(islower('€'))
-print(islower(' '))
