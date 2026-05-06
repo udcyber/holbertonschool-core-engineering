@@ -54,3 +54,31 @@ Directory: python_fundamentals/functions_modules
 File: islower.py  
 
 ---
+
+1. To Uppercase
+
+Write a function:
+```
+def uppercase(str):
+```  
+The function must <mark>print the string in uppercase followed by a new line</mark>.
+  
+Constraints:  
+
+- You are not allowed to use ```.upper()```.
+- You must use ASCII conversion (```ord()``` and ```chr()```).
+- The function must print the result directly.
+- The function does not return a value.  
+Example:  
+```
+>>> uppercase("Holberton")
+HOLBERTON
+```  
+Repo:  
+
+GitHub repository: holbertonschool-core-engineering  
+Directory: python_fundamentals/functions_modules  
+File: uppercase.py  
+
+---
+
