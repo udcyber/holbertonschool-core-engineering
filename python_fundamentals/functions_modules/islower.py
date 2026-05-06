@@ -6,7 +6,6 @@
 
 # Given Function
 def islower(c):
-    """Check if c is a lowercase letter"""
     if c >= 97 and c <= 122:
         return True
     else:
