@@ -2,4 +2,4 @@
 
 # Output info
 for i in range(99):
-    print(i, "=", hex(i))
+    print("{} = {}".format(i, hex(i)))
