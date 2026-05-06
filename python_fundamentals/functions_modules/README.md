@@ -30,7 +30,7 @@ Write a function:
 ```
 def islower(c):
 ```  
-The function must return ```True``` if ```c``` is a lowercase letter and ```False``` otherwise.
+The function <mark>must return ```True``` if ```c``` is a lowercase letter and ```False``` otherwise</mark>.
 
 Constraints:  
 
