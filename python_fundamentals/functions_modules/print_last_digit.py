@@ -5,4 +5,7 @@
 
 def print_last_digit(number):
     """print last digit of number, always positive"""
-    print(abs(number) % 10)
+    if number < 0:
+        print(number % -10)
+    else:
+        print(number % 10)
