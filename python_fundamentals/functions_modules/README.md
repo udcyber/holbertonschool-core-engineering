@@ -82,3 +82,195 @@ File: uppercase.py
 
 ---
 
+2. Print Last Digit
+
+Write a function:
+```
+def print_last_digit(number):
+```
+The function must:
+  
+- Print the last digit of ```number```.
+- Return the value of the last digit.
+The last digit must always be positive.
+  
+Example:
+```
+>>> print_last_digit(98)
+8
+>>> print_last_digit(-1024)
+4
+```
+The printed digit must appear without extra text.
+  
+Repo:  
+
+GitHub repository: holbertonschool-core-engineering  
+Directory: python_fundamentals/functions_modules  
+File: print_last_digit.py  
+
+---
+
+3. a ^ b
+
+Write a function:
+```
+def pow(a, b):
+```
+The function must return the value of ```a``` raised to the power of ```b```.
+
+Constraints:
+  
+- You are not allowed to use the built-in exponent operator ```**```.
+- You are not allowed to import modules.
+- You must implement the logic manually using a loop.
+  
+Example:
+```
+>>> pow(2, 4)
+16
+>>> pow(5, 0)
+1
+```
+  
+Repo:  
+
+GitHub repository: holbertonschool-core-engineering  
+Directory: python_fundamentals/functions_modules  
+File: pow.py  
+
+---
+
+4. Script Execution and Import Behavior
+
+## Instructions:
+Create two files:  
+
+File: ```simple_add.py```
+
+- Define a function ```add(a, b)``` that returns the sum of two numbers.
+- At the top level of the file (outside any function, but after the definition), call the function and print the result of:
+```
+add(3, 5)
+```
+  
+File: ```test_import.py```
+
+- Import ```simple_add```.
+- Run ```python3 test_import.py```
+Observe what happens.
+  
+Then modify ```simple_add.py```:
+  
+- Move the print call inside:
+```
+if __name__ == "__main__":
+```  
+Run again.
+
+You must ensure:
+
+- When running ```python3 simple_add.py```, the result is printed.
+- When running ```python3 test_import.py```, nothing is printed.
+
+## Reflection (Before Quiz)
+Before attempting the quiz, take a few minutes to reflect on the following points:
+
+- Why does the print statement execute during import before adding the execution guard?
+- What is the value of ```__name__``` when a file is executed directly?
+- What is the value of ```__name__``` when a file is imported?
+- Why does moving the print statement inside ```if __name__ == "__main__":``` change the behavior?
+  
+You are not required to submit written answers. However, you are strongly encouraged to reason through these questions carefully before continuing.
+  
+The quiz that follows:
+  
+- Has a strict time limit per question (between 45 and 60 seconds).
+- Can only be attempted once (one-shot attempt).
+Make sure you fully understand the execution model before starting the quiz.
+  
+Repo:  
+
+GitHub repository: holbertonschool-core-engineering  
+Directory: python_fundamentals/functions_modules  
+
+---
+
+5. Import a Simple Function from a Simple File
+
+Write a program that imports the function ```add()``` from the file ```add_0.py``` and prints the result of the addition ```1 + 2 = 3```
+```
+def add(a, b):
+```
+  
+The program must:  
+
+- Assign ```1``` to a variable ```a```.
+- Assign ```2``` to a variable ```b```.
+- Print:
+```
+1 + 2 = 3
+```  
+Constraints:
+  
+- You are not allowed to use ```*``` for importing.
+- You are not allowed to use ```__import__```.
+- The program must not execute when imported.
+  
+Repo:  
+  
+GitHub repository: holbertonschool-core-engineering  
+Directory: python_fundamentals/functions_modules  
+File: add.py  
+
+---
+
+6. My First Toolbox
+
+Write a program that imports functions from ```calculator_1.py``` and prints the result of:
+  
+- addition
+- subtraction
+- multiplication
+- division
+  
+Using:  
+```
+a = 10
+b = 5
+```
+  
+Each operation must be printed on its own line.
+  
+Constraints:  
+
+- You are not allowed to use ```*``` for importing.
+- The program must not execute when imported.
+  
+Repo:
+  
+- GitHub repository: holbertonschool-core-engineering  
+- Directory: python_fundamentals/functions_modules  
+- File: calculation.py  
+
+---
+
+7. Everything Can Be Imported
+
+Write a program that imports the variable ```a``` from ```variable_load_5.py``` and prints its value.
+
+Constraints:  
+
+- You are not allowed to use ```*``` for importing.
+- The program must not execute when imported.
+  
+Example: 
+```
+98
+```
+  
+Repo:  
+
+GitHub repository: holbertonschool-core-engineering  
+Directory: python_fundamentals/functions_modules  
+File: variable_load.py  
