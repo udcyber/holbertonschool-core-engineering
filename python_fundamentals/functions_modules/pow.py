@@ -1,6 +1,9 @@
 #!/usr/bin/env python3
+
 def pow(a, b):
+    """return the result value of a raised to the power of b"""
     result = 1
-    for i in range(b):
+    # _ here means "the loop counter is not used"
+    for _ in range(b):
         result *= a
     return result
