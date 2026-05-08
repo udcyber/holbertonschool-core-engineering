@@ -117,3 +117,183 @@ Repo:
 GitHub repository: holbertonschool-core-engineering  
 Directory: python_fundamentals/core_data_structures  
 File: replace_in_list.py  
+
+---
+
+3. Print a matrix of integers
+  
+Write a function that <mark>prints a matrix of integers</mark>.
+  
+Prototype:
+```
+def print_matrix_integer(matrix=[[]]):
+```
+- ```matrix``` is a list of lists (2D list).
+- Format each row on its own line.
+- Values in a row must be separated by a single space.  
+  
+Execution example:
+```
+$ cat main.py
+#!/usr/bin/env python3
+print_matrix_integer = __import__('print_matrix_integer').print_matrix_integer
+
+matrix = [
+    [1, 2, 3],
+    [4, 5, 6],
+    [7, 8, 9]
+]
+print_matrix_integer(matrix)
+
+$ ./main.py
+1 2 3
+4 5 6
+7 8 9
+```
+  
+Repo:  
+  
+GitHub repository: holbertonschool-core-engineering  
+Directory: python_fundamentals/core_data_structures  
+File: print_matrix_integer.py  
+
+---
+
+4. Tuple addition
+  
+Write a function that <mark>adds two tuples</mark>.
+  
+Prototype:
+```
+def add_tuple(tuple_a=(), tuple_b=()):
+```
+  
+- Return a new tuple with exactly two integers.
+- Treat missing values as ```0```.
+- Ignore values beyond the first two.  
+  
+Execution example:
+```
+$ cat main.py
+#!/usr/bin/env python3
+add_tuple = __import__('add_tuple').add_tuple
+
+print(add_tuple((1, 89), (88, 11)))
+print(add_tuple((1, 89), (1, )))
+print(add_tuple((1, 89), ()))
+print(add_tuple((), ()))
+
+$ ./main.py
+(89, 100)
+(2, 89)
+(1, 89)
+(0, 0)
+```
+  
+Repo:  
+  
+GitHub repository: holbertonschool-core-engineering  
+Directory: python_fundamentals/core_data_structures  
+File: add_tuple.py  
+
+---
+
+5. Common elements in two sets
+
+Write a function that <mark>returns a set of common elements in two sets</mark>.
+
+Prototype:
+```
+def common_elements(set_1, set_2):
+```
+- Return a new set containing only elements present in both ```set_1``` and ```set_2```.
+  
+Execution example:
+```
+$ cat main.py
+#!/usr/bin/env python3
+common_elements = __import__('common_elements').common_elements
+
+set_1 = {"Python", "C", "Javascript"}
+set_2 = {"Bash", "C", "Ruby", "Perl"}
+print(sorted(list(common_elements(set_1, set_2))))
+
+$ ./main.py
+['C']
+```
+  
+Repo:
+  
+GitHub repository: holbertonschool-core-engineering  
+Directory: python_fundamentals/core_data_structures  
+File: common_elements.py  
+
+---
+
+6. Update or add a key/value in a dictionary
+
+Write a function that <mark>replaces or adds a key/value pair in a dictionary</mark>.
+
+Prototype:
+```
+def update_dictionary(a_dictionary, key, value):
+```
+- If ```key``` already exists, replace its value.
+- If ```key``` does not exist, create it.
+- Return the (updated) dictionary.
+  
+Execution example:
+```
+$ cat main.py
+#!/usr/bin/env python3
+update_dictionary = __import__('update_dictionary').update_dictionary
+
+d = {'language': 'C', 'number': 89, 'track': 'Low level'}
+print(update_dictionary(d, 'language', 'Python'))
+print(update_dictionary(d, 'city', 'San Francisco'))
+
+$ ./main.py
+{'language': 'Python', 'number': 89, 'track': 'Low level'}
+{'language': 'Python', 'number': 89, 'track': 'Low level', 'city': 'San Francisco'}
+```
+  
+Repo:  
+
+GitHub repository: holbertonschool-core-engineering  
+Directory: python_fundamentals/core_data_structures  
+File: update_dictionary.py  
+
+---
+
+7. Best score
+
+Write a function that <mark>returns the key with the biggest integer value</mark>.
+
+Prototype:
+```
+def best_score(a_dictionary):
+```
+- You may assume that all values are integers.
+- If ```a_dictionary``` is ```None``` or empty, return ```None```.
+- You may assume all values are different.
+  
+Execution example:
+```
+$ cat main.py
+#!/usr/bin/env python3
+best_score = __import__('best_score').best_score
+
+scores = {'John': 12, 'Bob': 14, 'Mike': 15, 'Molly': 16, 'Adam': 10}
+print(best_score(scores))
+print(best_score(None))
+
+$ ./main.py
+Molly
+None
+```
+  
+Repo:
+  
+GitHub repository: holbertonschool-core-engineering  
+Directory: python_fundamentals/core_data_structures  
+File: best_score.py  
