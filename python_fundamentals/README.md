@@ -6,3 +6,6 @@
 (python_fundamentals/control_flow)  
 - Project 3 — Python - Functions & Modularity  
 - Project 4 — Python - Core Data Structures  
+- Project 5 — Python - Exception Handling
+ Novice
+  
