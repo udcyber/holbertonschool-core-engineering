@@ -2,13 +2,10 @@
 
 def safe_print_integer(value):
     """Print an integer with \"{:d}\".format() followed by a new line."""
-    """Return:  True if value is an integer"""
-    """         False otherwise"""
+    # Return:  True if value is an integer"""
+    #          False otherwise"""
     try:
         print("{:d}".format(value))
         return True
-    except:
+    except (TypeError, ValueError):
         return False
-
-
-print()
