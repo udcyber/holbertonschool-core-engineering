@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
-"""Add an instance methode [area(self)] to the [Square] class."""
+"""Define a [Square] class with a private instance attribute."""
 
 
 class Square:
-    """Define [Square]."""
+    """Defininition of [Square]"""
     def __init__(self, size=0):
         """Initialize [Square] with [size].
 
@@ -24,5 +24,5 @@ class Square:
 
 
 def area(self):
-    """Return the current square area."""
-    return self.__size ** 2
+    """Compute the area of the square"""
+    return self.__size * self.__size
