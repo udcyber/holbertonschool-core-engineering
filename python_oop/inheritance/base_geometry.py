@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Create a class [BaseGeometry] with two methodes"""
+"""Create a class [BaseGeometry] with two methods"""
 # [BaseGeometry] includes
 # area(self) and
 # integer_validator(self, name, value)
