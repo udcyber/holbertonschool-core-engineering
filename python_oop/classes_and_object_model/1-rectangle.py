@@ -1,6 +1,5 @@
 #!/usr/bin/env python3
 """Define a class [Square] with a private instance attribute [size]"""
-# the size must be set when the object is created
 
 
 class Square:
