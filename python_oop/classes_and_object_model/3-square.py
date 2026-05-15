@@ -1,6 +1,5 @@
 #!/usr/bin/env python3
 """Add an instance methode [area(self)] to the [Square] class"""
-"""that returns the area of the square based on its' sides' length"""
 
 
 class Square:
@@ -15,10 +14,13 @@ class Square:
                 Typerror: size is not an integer
                 ValueError: size is negative
         """
+        # raise exceptions
         if not isinstance(size, int):
             raise TypeError("size must be an integer")
         if size < 0:
             raise ValueError("size must be >= 0")
+
+        # size is private
         self.__size = size
 
 
