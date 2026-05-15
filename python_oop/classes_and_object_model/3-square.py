@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
-"""Define a [Square] class with a private instance attribute."""
+"""Define a [Square] class with a private instance attribute"""
 
 
 class Square:
     """Defininition of [Square]"""
     def __init__(self, size=0):
-        """Initialize [Square] with [size].
+        """Initialize [Square] with [size]
 
             Arguments:
                 size: the size of the square
@@ -22,7 +22,7 @@ class Square:
         # size is private
         self.__size = size
 
-
 def area(self):
     """Compute the area of the square"""
     return self.__size * self.__size
+
