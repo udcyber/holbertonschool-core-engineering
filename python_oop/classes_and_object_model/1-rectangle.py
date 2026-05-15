@@ -1,13 +1,13 @@
 #!/usr/bin/env python3
-"""Define a class [Square] with a private instance attribute [size]"""
+"""Define a class 'Square' with a private instance attribute"""
 
 
 class Square:
-    """Definition of [Square]"""
+    """Definition of 'Square'"""
     def __init__(self, size=0):
-        """Initialize [Square] with [size] private instance attribute
+        """Inits 'Square' with 'size' private instance attribute
 
             Args:
-                size: the size of the square
+                size: An integer size of the square.
         """
         self.__size = size
