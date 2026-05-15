@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
-"""Add an instance methode [area(self)] to the [Square] class"""
+"""Add an instance methode [area(self)] to the [Square] class."""
 
 
 class Square:
-    """Define [Square]"""
+    """Define [Square]."""
     def __init__(self, size=0):
-        """Initialize [Square] with [size]
+        """Initialize [Square] with [size].
 
             Arguments:
                 size: the size of the square
@@ -24,5 +24,5 @@ class Square:
 
 
 def area(self):
-    """Compute the area of the square."""
+    """Return the area of the square."""
     return self.__size * self.__size
