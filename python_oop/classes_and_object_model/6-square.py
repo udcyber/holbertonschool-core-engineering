@@ -4,7 +4,7 @@
 
 class Square:
     """Defininition of [Square]"""
-    def __init__(self, size=0):
+    def __init__(self, size=0, position=(0, 0)):
         """Initialize [Square] with [size]
 
             Arguments:
@@ -21,6 +21,16 @@ class Square:
             raise ValueError("size must be >= 0")
         # size is private
         self.__size = size
+
+        if isinstance(position, tuple) and \
+                len(position) == 2 and \
+                isinstance(position[0], int) and \
+                isinstance(position[1], int) and \
+                position[0] >= 0 and \
+                position[1] >= 0:
+            self.__position = position
+        else:
+            raise TypeError("position must be a tuple of 2 positive integers")
 
     def area(self):
         """Return the area of the square"""
