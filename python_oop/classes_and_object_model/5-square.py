@@ -50,7 +50,7 @@ class Square:
             raise ValueError("size must be >= 0")
         self.__size = value
 
-        # print the square
-        def my_print(self):
-            """"Print the square with #"""
-            print("{}".format("\n".join(["#" * self.__size] * self.__size)))
+    # print the square
+    def my_print(self):
+        """"Print the square with #"""
+        print("{}".format("\n".join(["#" * self.__size] * self.__size)))
