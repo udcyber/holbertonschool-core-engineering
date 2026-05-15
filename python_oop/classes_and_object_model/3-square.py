@@ -19,11 +19,10 @@ class Square:
             raise TypeError("size must be an integer")
         if size < 0:
             raise ValueError("size must be >= 0")
-
         # size is private
         self.__size = size
 
 
 def area(self):
-    """Return the area of the square"""
+    """Compute the area of the square."""
     return self.__size * self.__size
