@@ -15,13 +15,10 @@ class Square:
                 Typerror: size is not an integer
                 ValueError: size is negative
         """
-        # raise exceptions
         if not isinstance(size, int):
             raise TypeError("size must be an integer")
         if size < 0:
             raise ValueError("size must be >= 0")
-
-        # size is private
         self.__size = size
 
 
