@@ -9,6 +9,7 @@ BaseGeometry = __import__("base_geometry").BaseGeometry
 
 
 class Rectangle(BaseGeometry):
+    """"Definition of [Rectangle]"""
     def __init__(self, width, height):
         # validation for exceptions for width and height of [Rectangle]
         self.integer_validator("width", width)
