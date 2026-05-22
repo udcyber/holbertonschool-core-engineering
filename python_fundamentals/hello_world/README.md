@@ -1,4 +1,9 @@
-## General Requirements
+# Python - Environment & First Programs
+
+---
+
+General Requirements
+  
 - Corrections will run on Ubuntu 20.04 LTS.
 - Python version used for correction: Python 3.8.x.
 - Every Python file must start exactly with:
@@ -14,7 +19,7 @@
 
 ---
 
-1. Deterministic Script Output
+## 1. Deterministic Script Output
 
 Create an executable file named ```structured_output.py``` that prints exactly:
 
