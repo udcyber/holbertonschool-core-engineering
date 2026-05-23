@@ -1,4 +1,7 @@
 # Python - Control Flow
+
+---
+  
 ## General Requirements
 - Corrections will run on Ubuntu 20.04 LTS.
 - Python version used for correction: Python 3.8.x.
@@ -21,7 +24,7 @@
 
 ---
 
-0. Positive anything is better than negative nothing
+## 0. Positive anything is better than negative nothing
 
 Create a script that assigns a random integer to a variable named ```number```. Copy the following line exactly as it is, after the shebang line.
 ```
@@ -55,7 +58,7 @@ File: positive_or_negative.py
 
 ---
 
-1. The last digit
+## 1. The last digit
 
 Assign a random integer to ```number```. Copy the following line exactly as it is, after the shebang line.
 ```
@@ -84,7 +87,7 @@ File: last_digit.py
 
 ---
 
-2. Alphabet Game (Lowercase)
+## 2. Alphabet Game (Lowercase)
 
 <mark>Print the lowercase alphabet except for ```q``` and ```e```<mark>.
 
@@ -102,7 +105,7 @@ Directory: python_fundamentals/control_flow
 File: print_alphabt.py  
 
 ---
-3. Hexadecimal Printing
+## 3. Hexadecimal Printing
 
 <mark>Print numbers from 0 to 98 in decimal and hexadecimal</mark>.
 
@@ -125,7 +128,7 @@ File: print_hexa.py
 
 ---
 
-4. 00...99
+## 4. 00...99
 
 <mark>Print numbers from 0 to 99</mark> formatted as two-digit numbers separated by comma and space.
 
@@ -151,7 +154,7 @@ File: print_comb2.py
 
 ---
 
-5. Combinations of Two Digits
+## 5. Combinations of Two Digits
 
 <mark>Print all unique combinations of two different digits from 0 to 9</mark>.
 
@@ -174,3 +177,4 @@ Repo:
 GitHub repository: holbertonschool-core-engineering  
 Directory: python_fundamentals/control_flow  
 File: print_comb3.py  
+  
