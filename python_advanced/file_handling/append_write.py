@@ -2,6 +2,7 @@
 """A function that appends a string at the end of a text file (UTF-8)
 and returns the number of characters added."""
 
+
 def append_write(filename="", text=""):
     """Append a string at the end of a text file, interpret it as unicode and
     return the number of characters added
