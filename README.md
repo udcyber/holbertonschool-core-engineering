@@ -6,3 +6,8 @@
 (python_fundamentals/control_flow)  
 - Project 3 — Python - Functions & Modularity  
 - Project 4 — Python - Core Data Structures  
+- Project 5 — Python - File Handling
+- Project 6 — Python - Serialization
+- Project 7 — Python - Debugging Strategies
+- Project 8 — Minimum Operations
+  
