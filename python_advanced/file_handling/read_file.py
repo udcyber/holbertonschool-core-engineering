@@ -5,10 +5,10 @@
 
 def read_file(filename=""):
     """Read a file, interpret it as unicode and print it to stdout.
-    
+
     Args:
         filename (str): Name of the file.
-        
+
     Return:
         nothing
     """
