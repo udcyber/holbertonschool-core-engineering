@@ -6,7 +6,7 @@ and returns the number of characters added."""
 def append_write(filename="", text=""):
     """Append a string at the end of a text file, interpret it as unicode and
     return the number of characters added
-    
+
     Args:
         filename (str): Name of the file.
         text (str): String to append at the end of the text file.

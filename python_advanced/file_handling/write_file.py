@@ -6,7 +6,7 @@ the number of characters written."""
 def write_file(filename="", text=""):
     """Write a string to a text file, interpret it as unicode and return
     the number of characters written.
-    
+
     Args:
         filename (str): Name of the file.
         text (str): String to write to the text file.
