@@ -3,6 +3,7 @@
 ---
 
 ## General Requirements
+  
 - Corrections will run on Ubuntu 20.04 LTS.
 - Python version used for correction: Python 3.8.x.
 - Every Python file must start exactly with:
@@ -20,7 +21,7 @@
 
 ---
 
-0. Print a list of integers
+## 0. Print a list of integers
 
 Updated Project Instruction
   
@@ -56,7 +57,7 @@ File: print_list_integer.py
 
 ---
 
-1. Safe access to a list element
+## 1. Safe access to a list element
 
 Write a function that retrieves an element from a list like in C.
 
@@ -89,7 +90,7 @@ File: element_at.py
 
 ---
 
-2. Replace an element in a list
+## 2. Replace an element in a list
 
 Write a function that replaces an element of a list at a specific position.
 
@@ -120,7 +121,7 @@ File: replace_in_list.py
 
 ---
 
-3. Print a matrix of integers
+## 3. Print a matrix of integers
   
 Write a function that <mark>prints a matrix of integers</mark>.
   
@@ -159,7 +160,7 @@ File: print_matrix_integer.py
 
 ---
 
-4. Tuple addition
+## 4. Tuple addition
   
 Write a function that <mark>adds two tuples</mark>.
   
@@ -198,7 +199,7 @@ File: add_tuple.py
 
 ---
 
-5. Common elements in two sets
+## 5. Common elements in two sets
 
 Write a function that <mark>returns a set of common elements in two sets</mark>.
 
@@ -230,7 +231,7 @@ File: common_elements.py
 
 ---
 
-6. Update or add a key/value in a dictionary
+## 6. Update or add a key/value in a dictionary
 
 Write a function that <mark>replaces or adds a key/value pair in a dictionary</mark>.
 
@@ -265,7 +266,7 @@ File: update_dictionary.py
 
 ---
 
-7. Best score
+## 7. Best score
 
 Write a function that <mark>returns the key with the biggest integer value</mark>.
 
@@ -297,3 +298,4 @@ Repo:
 GitHub repository: holbertonschool-core-engineering  
 Directory: python_fundamentals/core_data_structures  
 File: best_score.py  
+  
