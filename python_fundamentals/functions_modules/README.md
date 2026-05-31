@@ -23,7 +23,7 @@
 
 ---
 
-0. islower
+## 0. islower
 
 Write a function:
 
@@ -55,7 +55,7 @@ File: islower.py
 
 ---
 
-1. To Uppercase
+## 1. To Uppercase
 
 Write a function:
 ```
@@ -82,7 +82,7 @@ File: uppercase.py
 
 ---
 
-2. Print Last Digit
+## 2. Print Last Digit
 
 Write a function:
 ```
@@ -111,7 +111,7 @@ File: print_last_digit.py
 
 ---
 
-3. a ^ b
+## 3. a ^ b
 
 Write a function:
 ```
@@ -141,7 +141,7 @@ File: pow.py
 
 ---
 
-4. Script Execution and Import Behavior
+## 4. Script Execution and Import Behavior
   
 Introduction
   
@@ -193,7 +193,8 @@ You must ensure:
 - When running ```python3 simple_add.py```, the result is printed.
 - When running ```python3 test_import.py```, nothing is printed.
 
-## Reflection (Before Quiz)
+Reflection (Before Quiz)
+  
 Before attempting the quiz, take a few minutes to reflect on the following points:
 
 - Why does the print statement execute during import before adding the execution guard?
@@ -216,7 +217,7 @@ Directory: python_fundamentals/functions_modules
 
 ---
 
-5. Import a Simple Function from a Simple File
+## 5. Import a Simple Function from a Simple File
 
 Write a program that imports the function ```add()``` from the file ```add_0.py``` and prints the result of the addition ```1 + 2 = 3```
 ```
@@ -245,7 +246,7 @@ File: add.py
 
 ---
 
-6. My First Toolbox
+## 6. My First Toolbox
 
 Write a program that imports functions from ```calculator_1.py``` and prints the result of:
   
@@ -275,7 +276,7 @@ Repo:
 
 ---
 
-7. Everything Can Be Imported
+## 7. Everything Can Be Imported
 
 Write a program that imports the variable ```a``` from ```variable_load_5.py``` and prints its value.
 
