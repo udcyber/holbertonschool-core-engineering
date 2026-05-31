@@ -242,8 +242,8 @@ Repo:
   
 GitHub repository: holbertonschool-core-engineering  
 Directory: python_fundamentals/functions_modules  
-File: add.py / add_0.py
-
+File: add.py / add_0.py  
+  
 ---
 
 ## 6. My First Toolbox
@@ -272,7 +272,7 @@ Repo:
   
 - GitHub repository: holbertonschool-core-engineering  
 - Directory: python_fundamentals/functions_modules  
-- File: calculation.py  
+- File: calculation.py / calculator_1.py  
 
 ---
 
