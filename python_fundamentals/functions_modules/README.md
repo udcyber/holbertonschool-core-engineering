@@ -142,8 +142,28 @@ File: pow.py
 ---
 
 4. Script Execution and Import Behavior
-
-## Instructions:
+  
+Introduction
+  
+Until now, you have defined functions and executed them within the same file. In this task, you will analyze what changes when functions are placed in one file and that file is reused from another.
+  
+When Python imports a file, it executes the file from top to bottom in order to create its namespace. This means that:
+- Function definitions are executed.
+- Variable assignments are executed.
+- Any top-level statements (including ```print```) are also executed.
+  
+If execution is not controlled, importing a file can trigger unintended behavior.
+  
+The objective of this task is to:
+- Observe the difference between executing a file directly and importing it.
+- Understand why top-level code runs during import.
+- Learn the role of ```if __name__ == "__main__"```.
+- Distinguish clearly between defining behavior and executing behavior.
+  
+You must carefully observe the behavior before and after introducing the execution guard. The quiz following this task will evaluate your understanding of these concepts.
+  
+Instructions:
+  
 Create two files:  
 
 File: ```simple_add.py```
