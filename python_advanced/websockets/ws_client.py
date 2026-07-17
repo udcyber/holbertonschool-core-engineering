@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Module that builds a websocket client."""
+"""Module that builds a websocket client"""
 
 import asyncio
 import websockets
