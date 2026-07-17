@@ -7,7 +7,7 @@ import websockets
 
 async def connect_and_send(uri: str, text: str) -> str:
     """Connect to a WebSocket server and send messages through
-    an open connection."""
+    an open connection and return the response."""
 
     async with websockets.connect(uri) as websocket:
         await websocket.send(text)
